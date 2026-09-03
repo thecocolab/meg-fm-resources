@@ -44,16 +44,16 @@ Foundation models are beginning to reshape brain-signal analysis by moving the f
 | :-- | :-- | --: | :-- | :-- | :-- |
 | [CamCAN](#camcan) | [Large cohort](#large-cohort) | 647 | 📝 Registration | MEG, processed sMRI | Large lifespan dataset |
 | [OMEGA](#omega) | [Large cohort](#large-cohort) | 644 | 📝 Registration | MEG, T1 MRI | 150+ hours |
-| [MEG UK](#meg-uk) | [Large cohort](#large-cohort) | 500 | 🔒 Restricted | MEG | Multi-site; >500 healthy individuals |
+| [MEG UK](#meg-uk) | [Large cohort](#large-cohort) | 500 | 🔒 Restricted | MEG, MRI, psychometric data | Multi-site; >500 healthy individuals |
 | [NatMEG](#natmeg) | [Large cohort](#large-cohort) | 130 | 📝 Registration | MEG | Medium |
-| [NIMH Healthy Research Volunteers](#nimh-healthy-research-volunteer-dataset) | [Large cohort](#large-cohort) | 123 | ✅ Open | MEG | 663 GB |
+| [NIMH Healthy Research Volunteers](#nimh-healthy-research-volunteer-dataset) | [Large cohort](#large-cohort) | 123 | ✅ Open | MEG, MRI | 663 GB |
 | [MOUS](#mous) | [Multimodal](#multimodal) | 204 | 🔒 Restricted | MEG, fMRI | 1030 GB |
 | [WAND](#wand) | [Multimodal](#multimodal) | 170 | ✅ Open | MEG, MRI, TMS | Medium |
 | [HCP MEG](#hcp-meg) | [Multimodal](#multimodal) | 95 | 📝 Registration | MEG, MRI | Moderate; 300 GB |
-| [Naturalistic music listening](#naturalistic-music-listening) | [Multimodal](#multimodal) | 35 | ✅ Open | MEG, EEG | 333 GB |
+| [Naturalistic music listening](#naturalistic-music-listening) | [Multimodal](#multimodal) | 35 | ✅ Open | MEG | 333 GB |
 | [Wakeman and Henson](#wakeman-and-henson) | [Multimodal](#multimodal) | 19 | ✅ Open | sMRI, fMRI, MEG, EEG | Small–medium; 29 GB |
 | [Simon task MEEG](#simon-task-meeg) | [Multimodal](#multimodal) | 9 | ✅ Open | MEG, EEG | 38 GB |
-| [Sentence-level meaning](#sentence-level-meaning) | [Naturalistic](#naturalistic) | 37 | ✅ Open | MEG, MRI | 343 GB |
+| [Sentence-level meaning](#sentence-level-meaning) | [Naturalistic](#naturalistic) | 35 | ✅ Open | MEG, MRI | 343 GB |
 | [LibriBrain100](#libribrain100) | [Naturalistic](#naturalistic) | 33 | ✅ Open | MEG, audio, text | ~100 hours |
 | [DECAF](#decaf) | [Naturalistic](#naturalistic) | 30 | ✉️ Request | MEG, NIR face video, hEOG, ECG, tEMG | 60 hours; 300 GB |
 | [MEG-MASC](#meg-masc) | [Naturalistic](#naturalistic) | 27 | ✅ Open | MEG + audio/text | Small–medium |
@@ -62,8 +62,8 @@ Foundation models are beginning to reshape brain-signal analysis by moving the f
 | [Oscillatory building blocks](#oscillatory-building-blocks) | [Task benchmark](#task-benchmark) | 33 | 🔒 Restricted | MEG | 452 GB |
 | [BCI and mental imagery](#bci-and-mental-imagery) | [Task benchmark](#task-benchmark) | 17 | ✅ Open | MEG | Small; 49 GB |
 | [Eye movement effects in MEG](#eye-movement-effects-in-meg) | [Task benchmark](#task-benchmark) | 16 | 🔒 Restricted | MEG | 127 GB |
-| [THINGS-MEG](#things-meg) | [Task benchmark](#task-benchmark) | 4 | ✅ Open | MEG | 377 GB |
-| [BioFind](#biofind) | [Clinical / perturb.](#clinical-and-perturbation) | 324 | 📝 Registration | MEG, T1 MRI, metadata | Medium–large |
+| [THINGS-MEG](#things-meg) | [Task benchmark](#task-benchmark) | 4 | ✅ Open | MEG, T1 MRI | 377 GB |
+| [BioFIND](#biofind) | [Clinical / perturb.](#clinical-and-perturbation) | 324 | 📝 Registration | MEG, T1 MRI, metadata | Medium–large |
 | [Pharmacological MEG](#pharmacological-meg) | [Clinical / perturb.](#clinical-and-perturbation) | 68 | ✅ Open | MEG | Medium |
 | [Auditory-to-motor entrainment in Parkinson's](#auditory-to-motor-entrainment-in-parkinsons-disease) | [Clinical / perturb.](#clinical-and-perturbation) | 30 | 🔒 Restricted | MEG | 174 GB |
 | [Left motor cortex and phonological discrimination](#left-motor-cortex-and-phonological-discrimination) | [Specialized](#specialized) | 32 | ✅ Open | MEG | Not specified |
@@ -106,7 +106,7 @@ Broad, standardized recordings across many participants — the backbone for nat
 
 - **Participants:** 500
 - **Source:** UK MEG Partnership / Cardiff · **Access:** 🔒 Restricted (consortium access)
-- **Modalities:** MEG
+- **Modalities:** MEG, MRI, psychometric data
 - **Scale / size:** Multi-site; more than 500 healthy individuals
 - **Task / paradigm:** Rest; sensory-motor and cognitive tasks
 - **Key strength:** Cross-site recordings from multiple MEG systems
@@ -130,7 +130,7 @@ Broad, standardized recordings across many participants — the backbone for nat
 
 - **Participants:** 123
 - **Source:** OpenNeuro · **Access:** ✅ Open
-- **Modalities:** MEG
+- **Modalities:** MEG, MRI
 - **Scale / size:** 663 GB
 - **Task / paradigm:** Rest; Hariri Hammer; Sternberg; somatosensory; Go/No-Go; naturalistic viewing; oddball
 - **Key strength:** Deep clinical, psychometric, cognitive, MRI, and MEG phenotyping
@@ -182,7 +182,7 @@ MEG recorded alongside fMRI, EEG, structural MRI, or brain stimulation — for c
 
 - **Participants:** 35
 - **Source:** Radboud Universiteit · **Access:** ✅ Open
-- **Modalities:** MEG, EEG
+- **Modalities:** MEG
 - **Scale / size:** 333 GB
 - **Task / paradigm:** Naturalistic Western classical music listening
 - **Key strength:** Note-level melodic surprise and uncertainty from computational music models
@@ -190,7 +190,7 @@ MEG recorded alongside fMRI, EEG, structural MRI, or brain stimulation — for c
 
 #### Wakeman and Henson
 
-**Wakeman & Henson dataset** — [openneuro.org/datasets/ds000117](https://openneuro.org/datasets/ds000117/versions/00001)
+**Wakeman & Henson dataset** — [openneuro.org/datasets/ds000117](https://openneuro.org/datasets/ds000117/versions/1.1.0)
 
 - **Participants:** 19
 - **Source:** OpenNeuro · **Access:** ✅ Open
@@ -220,7 +220,7 @@ Continuous, ecologically valid stimulation with rich temporal annotations — fo
 
 **Constructing sentence-level meaning: an MEG study of naturalistic language comprehension** — [data.ru.nl](https://data.ru.nl/collections/di/dccn/DSC_3027007.01_206)
 
-- **Participants:** 37
+- **Participants:** 35
 - **Source:** Radboud Universiteit · **Access:** ✅ Open
 - **Modalities:** MEG, MRI
 - **Scale / size:** 343 GB
@@ -230,7 +230,7 @@ Continuous, ecologically valid stimulation with rich temporal annotations — fo
 
 #### LibriBrain100
 
-[huggingface.co/datasets/pnpl/LibriBrain](https://huggingface.co/datasets/pnpl/LibriBrain)
+[pnpl/LibriBrain](https://huggingface.co/datasets/pnpl/LibriBrain) + [pnpl/LibriBrain2](https://huggingface.co/datasets/pnpl/LibriBrain2)
 
 - **Participants:** 33
 - **Source:** HuggingFace · **Access:** ✅ Open
@@ -240,7 +240,7 @@ Continuous, ecologically valid stimulation with rich temporal annotations — fo
 - **Key strength:** Deep within-subject sampling plus a cross-subject cohort
 - **Best FM use case:** Word-classification benchmark; cross-subject evaluation.
 
-*Same HuggingFace repository as [LibriBrain](#libribrain), which covers the single deeply-sampled participant.*
+*LibriBrain100 is the union of two HuggingFace repositories: [LibriBrain](#libribrain) (the single deeply-sampled participant, ~50 hours) plus `pnpl/LibriBrain2` (the additional cross-subject cohort). Both are needed to assemble the full ~100-hour, 33-participant dataset.*
 
 #### DECAF
 
@@ -290,7 +290,7 @@ Continuous, ecologically valid stimulation with rich temporal annotations — fo
 - **Key strength:** Deep within-subject sampling with high-quality temporal annotations
 - **Best FM use case:** Language/audio-aligned fine-tuning; long-context temporal modeling; potential for representation learning.
 
-*Same HuggingFace repository as [LibriBrain100](#libribrain100), which adds the 33-participant cohort.*
+*This repository is also one half of [LibriBrain100](#libribrain100), which combines it with `pnpl/LibriBrain2` to reach 33 participants.*
 
 ### Task benchmark
 
@@ -338,7 +338,7 @@ Controlled paradigms with well-defined labels — the natural targets for decodi
 
 - **Participants:** 4
 - **Source:** OpenNeuro · **Access:** ✅ Open
-- **Modalities:** MEG
+- **Modalities:** MEG, T1 MRI
 - **Scale / size:** 377 GB
 - **Task / paradigm:** Rapid visual object viewing with oddball detection
 - **Key strength:** Broad object sampling across 1,854 concepts and 12 sessions
@@ -348,9 +348,9 @@ Controlled paradigms with well-defined labels — the natural targets for decodi
 
 Disease cohorts and pharmacologically induced states — for clinical fine-tuning and robustness to altered brain dynamics.
 
-#### BioFind
+#### BioFIND
 
-**BioFind (Dementia)** — [portal.dementiasplatform.uk](https://portal.dementiasplatform.uk)
+**BioFIND (Dementia)** — [portal.dementiasplatform.uk](https://portal.dementiasplatform.uk)
 
 - **Participants:** 324
 - **Source:** DPUK · **Access:** 📝 Registration needed
@@ -362,7 +362,7 @@ Disease cohorts and pharmacologically induced states — for clinical fine-tunin
 
 #### Pharmacological MEG
 
-**Pharmacological MEG datasets (tiagabine, ketamine, and LSD)** — [dataverse.harvard.edu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9Q1SKM)
+**Pharmacological MEG datasets (tiagabine, perampanel, ketamine, and LSD)** — [dataverse.harvard.edu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9Q1SKM)
 
 - **Participants:** 68
 - **Source:** Harvard Dataverse · **Access:** ✅ Open
