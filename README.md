@@ -6,7 +6,7 @@ Companion dataset catalogue for the perspective paper **A Roadmap for MEG Founda
 
 ## A Roadmap for MEG Foundation Models
 
-Philipp Thölke<sup>1,2</sup>, Hamza Abdelhedi<sup>1,2,3</sup>, Yorguin Mantilla-Ramos<sup>1,2,3</sup>, Fouad Lbakali<sup>1,2,4</sup>, Oumayma Gharbi<sup>3,5</sup>, Catherine Duclos<sup>6,7</sup>, Annalisa Pascarella<sup>8</sup>, Vanessa Hadid<sup>2,9</sup>, Oiwi Parker Jones<sup>10,11</sup>, Karim Jerbi<sup>1,2,3,12</sup>
+Philipp Thölke<sup>1,2</sup>, Hamza Abdelhedi<sup>1,2,3</sup>, Yorguin Mantilla-Ramos<sup>1,2,3</sup>, Fouad Lbakali<sup>1,2,4</sup>, Oumayma Gharbi<sup>3,5</sup>, Catherine Duclos<sup>6,7,8</sup>, Annalisa Pascarella<sup>9</sup>, Vanessa Hadid<sup>2,10</sup>, Oiwi Parker Jones<sup>11,12</sup>, Karim Jerbi<sup>1,2,3,13</sup>
 
 <details>
 <summary><b>Affiliations</b></summary>
@@ -17,12 +17,13 @@ Philipp Thölke<sup>1,2</sup>, Hamza Abdelhedi<sup>1,2,3</sup>, Yorguin Mantilla
 4. IMT Atlantique, Brest, F-29238, France
 5. IVADO, Université de Montréal, Montréal, QC, Canada
 6. Center for Advanced Research in Sleep Medicine, Hôpital du Sacré-Cœur de Montréal, Santé Québec Nord-de-l’Île-de-Montréal – Universitaire, Montréal, QC, Canada
-7. Department of Anesthesiology and Pain Medicine, Department of Neuroscience, Faculty of Medicine, Université de Montréal, Montréal, QC, Canada
-8. Institute for Applied Mathematics “Mauro Picone”, National Research Council (CNR), Rome, Italy
-9. McGill University Health Centre, Montréal, QC, Canada
-10. Oxford Centre for Integrative Neuroimaging (OxCIN), University of Oxford, Oxford, United Kingdom
-11. Department of Engineering Science, University of Oxford, Oxford, United Kingdom
-12. UNIQUE Center, Quebec Neuro-AI Research Center, Montréal, QC, Canada
+7. Department of Anesthesiology and Pain Medicine, Faculty of Medicine, Université de Montréal, Montréal, QC, Canada
+8. Department of Neuroscience, Faculty of Medicine, Université de Montréal, Montréal, QC, Canada
+9. Institute for Applied Mathematics “Mauro Picone”, National Research Council (CNR), Rome, Italy
+10. McGill University Health Centre, Montréal, QC, Canada
+11. Oxford Centre for Integrative Neuroimaging (OxCIN), University of Oxford, Oxford, United Kingdom
+12. Department of Engineering Science, University of Oxford, Oxford, United Kingdom
+13. UNIQUE Center, Quebec Neuro-AI Research Center, Montréal, QC, Canada
 
 </details>
 
